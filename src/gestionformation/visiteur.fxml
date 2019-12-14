@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionformation.VisiteurController">
+   <children>
+      <AnchorPane layoutY="3.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="469.0" fitWidth="649.0" layoutX="-7.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="35.0" layoutY="150.0" mnemonicParsing="false" onAction="#affichercatalogue" prefHeight="29.0" prefWidth="141.0" text="Afficher le Catalogue ">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font></Button>
+            <Button layoutX="284.0" layoutY="149.0" mnemonicParsing="false" onAction="#gotogroupe" prefHeight="26.0" prefWidth="106.0" text="Groupe ">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font></Button>
+            <Button fx:id="stagiares" layoutX="446.0" layoutY="149.0" mnemonicParsing="false" onAction="#gotostagiares" prefHeight="32.0" prefWidth="106.0" text="les stagiares">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="150.0" fitWidth="165.0" layoutX="35.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/2995e442ba1d206854ad9e29b32d1271.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="122.0" layoutX="268.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icone-groupe-png.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="89.0" fitWidth="100.0" layoutX="508.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/graduation.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="499.0" layoutY="404.0" mnemonicParsing="false" onAction="#gotomain" prefHeight="41.0" prefWidth="106.0" text="main Menu" />
+            <ImageView fitHeight="41.0" fitWidth="61.0" layoutX="447.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/580b57fcd9996e24bc43c451.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionformation.AjoutergroupeController">
+   <children>
+      <ImageView fitHeight="452.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/1.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nomtextfield" layoutX="204.0" layoutY="142.0" promptText="saisir le nom du groupe" />
+      <TextField fx:id="codeformationtextfield" layoutX="203.0" layoutY="218.0" promptText="saisir le code " />
+      <Button layoutX="230.0" layoutY="263.0" mnemonicParsing="false" onAction="#ajoutergroupebutton" prefHeight="46.0" prefWidth="96.0" text="Submit" textFill="#1a1e1a">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Label fx:id="submitMsg" layoutX="172.0" layoutY="371.0" textFill="#b9b6b6">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Button layoutX="448.0" layoutY="23.0" mnemonicParsing="false" onAction="#gotogroupe" prefHeight="25.0" prefWidth="126.0" text="Menu" textFill="#1e1515">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label layoutX="244.0" layoutY="90.0" prefHeight="43.0" prefWidth="70.0" text="nom " textFill="#18181e">
+         <font>
+            <Font name="System Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="179.0" text="code de formation" textFill="#21202c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="120.0" fitWidth="149.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/graduation.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="44.0" layoutX="394.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/580b57fcd9996e24bc43c451.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

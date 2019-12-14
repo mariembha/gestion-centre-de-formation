@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionformation.FormationvisiteurController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/1.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="53.0" layoutY="98.0" prefHeight="226.0" prefWidth="465.0">
+        <columns>
+          <TableColumn fx:id="code" prefWidth="91.0" text="code" />
+          <TableColumn fx:id="nom" prefWidth="103.0" text="nom" />
+            <TableColumn fx:id="tarif" prefWidth="121.0" text="tarif" />
+            <TableColumn fx:id="nombreh" prefWidth="173.0" text="nombre heures" />
+        </columns>
+      </TableView>
+      <Button layoutX="473.0" layoutY="394.0" mnemonicParsing="false" onAction="#gotoespaceclient" prefHeight="29.0" prefWidth="107.0" text="Menu" textFill="#464d4c" />
+      <Label layoutX="55.0" layoutY="25.0" prefHeight="61.0" prefWidth="465.0" text="Consultez les formations disponibles dans note centre" textFill="#c3c0bf">
+         <font>
+            <Font name="System Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="50.0" layoutX="432.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/580b57fcd9996e24bc43c451.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="146.0" layoutX="14.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/graduation.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
